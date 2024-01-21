@@ -24,7 +24,8 @@
 2. **threshold**
 - 閾值，買進跌幅前threshold%的股票
 3. **signal**
-- signal<=0，signal<0買進持有，signal=0不持有。signal<0的幅度愈大，持有權重愈大
+- 在函數signal中 : signal>=0，signal>0買進持有，signal=0不持有。signal>0的幅度愈大，持有權重愈大
+- 在函數signal_topN中 : signal<=0，signal<0買進持有，signal=0不持有。signal<0的幅度愈大，持有權重愈大
 4. **參數最佳化 - days**
 - 使用不同參數days，尋找哪個days使策略報酬極大
 - 結果 : 長期反轉策略績效明顯優於長期

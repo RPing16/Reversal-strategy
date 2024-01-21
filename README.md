@@ -1,4 +1,4 @@
-# Reversal-strategy
+# Reversal strategy
 將反轉策略應用於台股，每日買進過去D天跌幅最多的前X%的股票，權重依據當日跌幅進行加權
 # files
 1. **Reversal.ipynb**

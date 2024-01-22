@@ -7,7 +7,7 @@
 2. **Strategy performance analysis.html**
 - 反轉策略績效分析code
 3. **Strategic Performance Analysis Chart**
-- 動能策略績效分析圖表
+- 反轉策略績效分析圖表
 
 ## data
 - benchmark : 台灣加權股價指數(Y9999)

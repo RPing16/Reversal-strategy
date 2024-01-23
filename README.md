@@ -1,6 +1,11 @@
 # Reversal strategy
 將反轉策略應用於台股，每日買進過去D天跌幅最多的前N檔股票，權重依據當日跌幅進行加權
 
+# 動機
+- 根據過去文獻，在美股反轉屬於短期現象，大約發生在1~4週
+- 好奇台股的反轉策略表現如何
+- 參考文獻 : https://quantpedia.com/strategies/short-term-reversal-in-stocks/
+
 # files
 1. **Reversal.ipynb**
 - 反轉策略code
